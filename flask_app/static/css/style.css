@@ -1,0 +1,18 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    background-color: antiquewhite;
+}
+
+.home-icon {
+    height: 50px;
+    /* width: 100%; */
+}
+
+.nav-icon {
+    height: 15px;
+}
