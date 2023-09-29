@@ -23,8 +23,8 @@
 
 /* Link icons */
 .nav-icon {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
 }
 
 /* Nav-link */
@@ -71,9 +71,64 @@ a.nav-link {
 
 /* Career text */
 .career-text {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Pixelify Sans';
     /* font-family: 'Roboto'; */
-    color: goldenrod;
+    color: gainsboro;
 }
+
+/* Main banner picture animation */
+.slide {
+    /* left: 70px; */
+    /* bottom: -150px; */
+    opacity: 0;
+    animation: slider 7s infinite;
+}
+
+/* .slide img{
+    width: 300px;
+} */
+
+@keyframes slider {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(-5px);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(-5px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+}
+/* End of main banner picture animation */
 /* End of main banner */
+
+/* About me */
+/* Div border */
+.frame {
+    border: 10px solid;
+    border-image: black;
+    position: relative;
+    z-index: 1;
+}
+
+/* Background color */
+.about-bg {
+    background-image: linear-gradient(to bottom right, #24fcfe, #177e81);
+}
+
+/* Pictures parameters */
+.about-pics {
+    border: 3px solid white;
+    height: 350px;
+    width: 100%;
+    border-radius: 15px;
+}
+/* End of about me */

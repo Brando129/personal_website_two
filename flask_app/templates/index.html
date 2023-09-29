@@ -10,6 +10,8 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- Tab image link -->
     <link rel="shortcut icon" type="x-icon" href="/static/img/bobba.png">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +20,7 @@
 </head>
 <body>
     <!-- Navbar -->
-    <div class="d-flex align-items-center justify-content-between p-2 nav b-bottom">
+    <div class="d-flex align-items-center justify-content-between p-2 nav b-bottom col-md-12">
         <div class="d-flex align-items-end">
             <img class="home-icon" src="/static/img/home.png" alt="Home">
             <h2 class="pixel">Brandon Colangelo</h2>
@@ -58,15 +60,34 @@
     <!-- Main banner -->
     <div class="d-flex aign-items-center justify-content-around fixed-bg b-bottom">
         <div class="row p-5">
-            <div class="text-center col-md-6">
+            <div class="text-center slide col-md-6">
                 <img class="profile_image rounded-circle" src="/static/img/noir_profile_pic.png" alt="Profile picture">
             </div>
             <div class="text-center my-auto col-md-6">
                 <h2 class="pixel mb-3 text-white">"I want to be able to build anything that I can imagine."</h2>
-                <p class="career-text mb-3">Software Engineer</p>
+                <p class="career-text mb-3"><span class="auto-type"></span></p>
             </div>
         </div>
     </div>
     <!-- End of main banner -->
+    <!-- About me -->
+    <div class="d-flex justify-content-around frame about-bg p-3">
+        <div class="col-md-4 text-center my-auto pixel">
+            <h1 class="pixel">About me</h1>
+            <h3>
+                Software Engineer focused on developing full-stack applications with <span id="python">Python</span>. Skilled in communicating effectively,
+                identifying and solving problems, conducting research, and designing solutions. Eager to <span id="learn">learn new technologies</span> and
+                apply them to solve real-world problems. Demonstrated ability to design, develop, and maintain <span id="secure">secure and scalable applications</span>.
+                In my spare time I enjoy <span id="sports">sports</span> and <span id="nostalgia">collecting nostalgia</span>.
+            </h3>
+        </div>
+        <div class="my-auto col-md-4">
+            <img class="my_slides about-pics" src="/static/img/Reece.png" alt="Reece">
+            <img class="my_slides about-pics" src="/static/img/goku.gif" alt="Goku">
+        </div>
+    </div>
+    <!-- End of about me -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="/static/js/script.js"></script>
 </body>
 </html>
