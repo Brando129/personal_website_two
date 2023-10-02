@@ -7,7 +7,7 @@
 /* Navbar */
 /* Navbar background */
 .nav {
-    background-image: linear-gradient(to bottom right, #24fcfe, #177e81);
+    background-image: linear-gradient(to bottom right, antiquewhite, silver);
 }
 
 /* Home icons */
@@ -163,8 +163,8 @@ section {
 .loader span {
     position: absolute;
     top: 0;
-    left: -140px;
-    width: 140px;
+    left: -160px;
+    width: 160px;
     height: 2px;
     /* background-color: #f00; */
     transform-origin: right;
@@ -217,7 +217,28 @@ section {
     color: #24fcfe;
 }
 
+/* About3 */
+/* Background color */
+.about3-bg {
+    background-image: linear-gradient(to bottom right, antiquewhite, silver);
+}
+
 /* About4 */
+/* Background color */
+.about4-bg {
+    background-image: linear-gradient(to bottom right, antiquewhite, silver);
+}
+
+/* Spine of the bootcamp timeline */
+.bootcamp-timeline-spine{
+    background-color: teal;
+}
+
+/* List bullets */
+.no-dots {
+    list-style-type: none;
+}
+
 /* Bootcamp timeline photos */
 .time-line-imgs {
     height: 40px;
@@ -231,6 +252,26 @@ section {
     transition: 700ms;
 }
 
+/* Bootcamp timeline fade in/out */
+.animate {
+    animation: anim 7s infinite alternate;
+    }
+
+    @keyframes anim {
+    0%, 25% {
+        opacity: 0;
+        z-index: 0;
+    }
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+        z-index: 1
+    }
+}
+
 /* About5 */
 .github-logo {
     height: 250px;
@@ -238,3 +279,50 @@ section {
     transition: 700ms;
 }
 /* End of about me */
+
+/* Projects */
+/* Projects background */
+.fixed-projects-bg {
+    /* The background image */
+    background-image: url("/static/img/blueprints.png");
+
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 300px;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+.fixed-projects-bg2 {
+    /* The background image */
+    background-image: url("/static/img/bobba.png");
+
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 300px;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+
+/* Border top */
+.t-top {
+    border-top: 2px solid white;
+}
+/* End of projects */

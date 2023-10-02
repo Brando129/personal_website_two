@@ -1,7 +1,7 @@
 // Main banner
 // Career title animation
 var typed = new Typed(".auto-type", {
-    strings: ["Software Engineer", "Web Developer"],
+    strings: ["Software Engineer", "Web/App Developer"],
     typeSpeed: 100,
     backSpeed:150,
     loop: true
