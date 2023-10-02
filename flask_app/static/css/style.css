@@ -215,4 +215,11 @@ section {
 .about2-sub-header {
     color: #24fcfe;
 }
+
+/* About5 */
+.github-logo {
+    height: 250px;
+    width: 100%;
+    transition: 700ms;
+}
 /* End of about me */
