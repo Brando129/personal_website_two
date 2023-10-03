@@ -386,6 +386,16 @@ section {
     /* Scale the background image to be as large as possible */
     background-size: cover;
 }
+
+.education-icon {
+    height: 70px;
+}
+
+.card-bg {
+    background-image: linear-gradient(to bottom right, white, silver);
+    border: 3px solid black;
+    /* border-radius: 15px; */
+}
 /* End of education */
 
 
