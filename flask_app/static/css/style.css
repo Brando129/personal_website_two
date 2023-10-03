@@ -301,9 +301,18 @@ section {
     /* Scale the background image to be as large as possible */
     background-size: cover;
 }
-.fixed-projects-bg2 {
+
+/* Border top */
+.t-top {
+    border-top: 2px solid white;
+}
+/* End of projects */
+
+/* Skills */
+/* Main skills banner background */
+.fixed-skills-bg {
     /* The background image */
-    background-image: url("/static/img/bobba.png");
+    background-image: url("/static/img/robot-skills.png");
 
     /* Set a specified height, or the minimum height for the background image */
     min-height: 300px;
@@ -321,8 +330,8 @@ section {
     background-size: cover;
 }
 
-/* Border top */
-.t-top {
-    border-top: 2px solid white;
+/* Skills 1 background */
+.skills1-bg {
+    background-image: linear-gradient(to bottom right, silver, black);
 }
-/* End of projects */
+/* End of skills */
