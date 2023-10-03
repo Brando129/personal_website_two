@@ -120,9 +120,9 @@ a.nav-link {
 }
 
 /* Background color */
-.about-bg {
+/* .about-bg {
     background-image: linear-gradient(to bottom right, #24fcfe, #177e81);
-}
+} */
 
 /* About sub-header */
 .about-sub-header {
@@ -220,7 +220,7 @@ section {
 /* About3 */
 /* Background color */
 .about3-bg {
-    background-image: linear-gradient(to bottom right, antiquewhite, silver);
+    background-image: linear-gradient(to bottom right, antiquewhite, goldenrod);
 }
 
 /* About4 */
@@ -312,7 +312,7 @@ section {
 /* Main skills banner background */
 .fixed-skills-bg {
     /* The background image */
-    background-image: url("/static/img/robot-skills.png");
+    background-image: url("/static/img/skills.png");
 
     /* Set a specified height, or the minimum height for the background image */
     min-height: 300px;
@@ -330,8 +330,132 @@ section {
     background-size: cover;
 }
 
+/* Skills header */
+.skills-header {
+    font-size: 100px;
+    font-family: 'Caveat';
+    color: white;
+}
+
+/* Skills text */
+.skills {
+    font-family: 'Caveat';
+}
+
+/* Skills text */
+.skills-txt {
+    font: 75px;
+    font-family: 'Caveat';
+    color: white
+}
+
+/* Black border bottom */
+.border-bottom-b {
+    border-bottom: 5px solid black;
+}
+
+/* Black border top */
+.border-top-b {
+    border-top: 5px solid black;
+}
+
 /* Skills 1 background */
 .skills1-bg {
-    background-image: linear-gradient(to bottom right, silver, black);
+    background-image: linear-gradient(to bottom right, antiquewhite, silver);
 }
 /* End of skills */
+
+/* Education */
+/* Main education banner background */
+.fixed-education-bg {
+    /* The background image */
+    background-image: url("/static/img/education.png");
+
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 300px;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+/* End of education */
+
+
+/* Courses */
+/* Main courses banner background */
+.fixed-courses-bg {
+    /* The background image */
+    background-image: url("/static/img/courses.png");
+
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 300px;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+/* End of courses */
+
+
+/* Experience */
+/* Main experience banner background */
+.fixed-experience-bg {
+    /* The background image */
+    background-image: url("/static/img/experience.png");
+
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 300px;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+/* End of experience */
+
+
+/* Contact */
+/* Main contact banner background */
+.fixed-contact-bg {
+    /* The background image */
+    background-image: url("/static/img/contact.png");
+
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 300px;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+/* End of contact */

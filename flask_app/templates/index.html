@@ -12,7 +12,12 @@
     <link rel="shortcut icon" type="x-icon" href="/static/img/bobba.png">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Font link -->
+    <!-- Font links -->
+    <!-- Pixel font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Gochi+Hand&family=Pixelify+Sans&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;1,400&family=Tektur&display=swap" rel="stylesheet">
+    <!-- Caveat font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Gochi+Hand&family=Pixelify+Sans&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;1,400&family=Tektur&display=swap" rel="stylesheet">
@@ -58,14 +63,14 @@
                 </li>
                 <li class="nav-item">
                     <div class="d-flex align-items-center">
-                        <img class="nav-icon" src="/static/img/flame.png" alt="Flame">
-                        <a class="nav-link pixel" href="#experience">Experience</a>
+                        <img class="nav-icon" src="/static/img/check.png" alt="Check">
+                        <a class="nav-link pixel" href="#courses">Courses</a>
                     </div>
                 </li>
                 <li class="nav-item">
                     <div class="d-flex align-items-center">
-                        <img class="nav-icon" src="/static/img/check.png" alt="Check">
-                        <a class="nav-link pixel" href="#courses">Courses</a>
+                        <img class="nav-icon" src="/static/img/flame.png" alt="Flame">
+                        <a class="nav-link pixel" href="#experience">Experience</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -128,7 +133,7 @@
     </div>
     <!-- End of main banner -->
     <!-- About me -->
-    <div id="about" class="frame about-bg p-3">
+    <div id="about" class="frame about2-bg p-3">
         <div class="row justify-content-around">
             <div class="col-md-5 text-center my-auto pixel">
                 <h2 class="pixel about-sub-header">About me</h2>
@@ -147,7 +152,7 @@
         </div>
     </div>
     <!-- About me second row -->
-    <div class="about2-bg p-3 b-bottom frame">
+    <div class="nav p-3 b-bottom frame">
         <div class="row justify-content-around">
             <!-- Loading animation -->
             <div class="my-auto col-md-3">
@@ -255,7 +260,7 @@
     </div>
     <!-- End of about me second row -->
     <!-- About me third row -->
-    <div class="frame about-bg p-3">
+    <div class="frame about2-bg p-3">
         <div class="row justify-content-around">
             <div class="col-md-5 text-center my-auto pixel">
                 <h2 class="pixel about-sub-header">My first project</h2>
@@ -282,7 +287,7 @@
     </div>
     <!-- End of about me third row -->
     <!-- About me fourth row -->
-    <div class="about2-bg p-3 b-bottom frame">
+    <div class="nav p-3 b-bottom frame">
         <div class="row justify-content-around">
             <!-- Bootcamp timeline chart -->
             <div class="my-auto col-md-3 fade-in animate">
@@ -333,12 +338,12 @@
     </div>
     <!-- End of about me fourth row -->
     <!-- About me row five -->
-    <div class="frame about-bg p-3">
+    <div class="frame about2-bg p-3">
         <div class="row justify-content-around">
             <div class="col-md-5 text-center my-auto pixel">
                 <h2 class="pixel about-sub-header">My life these days</h2>
                 <h4>
-                    I have been continuously coding and learning. I would like to learn more and more!
+                    I've been continuously coding and learning. I would like to learn more and more!
                 </h4>
             </div>
             <!-- Github link -->
@@ -346,7 +351,7 @@
                 <a href="https://github.com/Brando129" target="_blank">
                     <img class="github-logo" src="/static/img/github.png" alt="Github cat" onmouseover="scale(this, 1.2)" onmouseleave="scale(this, 1)">
                 </a>
-                <p class="text-center pixel m-0">Check out what I've been working on!</p>
+                <p class="text-center pixel text-white">Check out what I've been working on!</p>
             </div>
         </div>
     </div>
@@ -354,22 +359,22 @@
     <!-- End of about me -->
     <!-- Projects -->
     <!-- Project banner -->
-    <div id="projects" class="fixed-projects-bg b-bottom t-top">
+    <div id="projects" class="fixed-projects-bg border-top-b border-bottom-b">
         <div class="row">
-            <div style="margin-top: 125px;">
-                <h1 class="pixel text-black text-center">Projects</h1>
-                <h4 class="pixel text-black text-center">Here are some of the projects I have built.</h4>
+            <div style="margin-top: 70px;">
+                <h1 class="skills-header text-black text-center">Projects</h1>
+                <h1 class="skills-txt text-black text-center">Here are some of the projects that I've built.</h1>
             </div>
         </div>
     </div>
     <!-- End of projects banner -->
     <!-- End of projects -->
     <!-- Skills banner -->
-    <div id="skills" class="fixed-skills-bg b-bottom t-top">
+    <div id="skills" class="fixed-skills-bg border-bottom-b border-top-b">
         <div class="row">
-            <div style="margin-top: 125px;">
-                <h1 class="pixel text-black text-center">Skills</h1>
-                <h4 class="pixel text-black text-center">Major skills that I have aquired so far.</h4>
+            <div style="margin-top: 70px;">
+                <h1 class="skills-header text-center">Skills</h1>
+                <h1 class="skills-txt text-center">Major skills that I have aquired so far.</h1>
             </div>
         </div>
     </div>
@@ -400,10 +405,48 @@
         </div>
         <div class="d-flex align-items-center justify-content-between">
             <h2>Software</h2>
-            <h5>Git | MacOS</h5>
+            <h5>Git | MacOS | VS Code</h5>
         </div>
     </div>
     <!-- End of skills banner -->
+    <!-- Education -->
+    <div id="education" class="fixed-education-bg border-top-b border-bottom-b">
+        <div class="row">
+            <div style="margin-top: 70px;">
+                <h1 class="skills-header text-center">Education</h1>
+            </div>
+        </div>
+    </div>
+    <!-- End of education -->
+    <!-- Courses -->
+    <div id="courses" class="fixed-courses-bg border-top-b border-bottom-b">
+        <div class="row">
+            <div style="margin-top: 70px;">
+                <h1 class="skills-header text-center">Courses</h1>
+                <h1 class="skills-txt text-center">Some of the courses I have completed.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- End of courses -->
+    <!-- Experience -->
+    <div id="experience" class="fixed-experience-bg border-top-b border-bottom-b">
+        <div class="row">
+            <div style="margin-top: 70px;">
+                <h1 class="skills-header text-center">Experience</h1>
+            </div>
+        </div>
+    </div>
+    <!-- End of experience -->
+    <!-- Contact -->
+    <div id="contact" class="fixed-contact-bg border-top-b border-bottom-b">
+        <div class="row">
+            <div style="margin-top: 70px;">
+                <h1 class="skills-header text-center">Contact Me</h1>
+                <h1 class="skills-txt text-center">Please feel free to reach out to me.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- End of Contact -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="/static/js/script.js"></script>
 </body>
