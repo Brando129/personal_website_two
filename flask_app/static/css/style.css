@@ -310,9 +310,95 @@ section {
     background-size: cover;
 }
 
+/* Game projects background */
+.fixed-game-bg {
+    /* The background image */
+    background-image: url("/static/img/platformer.gif");
+
+    /* Set a specified height, or the minimum height for the background image */
+    min-height: 300px;
+
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+
 /* Border top */
 .t-top {
     border-top: 2px solid white;
+}
+
+/* Career Text */
+.career_text {
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: whitesmoke;
+}
+
+/* Project Image */
+.project_image {
+    height: 200px;
+    max-width: 90%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    /* border: 2px solid black; */
+}
+
+/* Project Card */
+.project_card {
+    margin-bottom: 25px;
+}
+
+
+/* Card Height */
+.card.card_height {
+    height: 420px;
+    /* border: 2px solid whitesmoke; */
+    border: 2px solid black;
+}
+
+/* Project Name */
+.project_name {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+/* Onmouseover transition time */
+div,
+img {
+    transition: 600ms;
+}
+
+/* Code link */
+.code_link {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: orange;
+}
+
+/* Video Link */
+#link {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: orange;
+}
+
+/* Project pictures */
+.project_pictures {
+    height: 400px;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    border: 4px solid black;
 }
 /* End of projects */
 
@@ -489,67 +575,3 @@ section {
 }
 
 /* End of contact */
-
-/* Career Text */
-.career_text {
-    font-size: 25px;
-    font-family: 'Roboto';
-    color: whitesmoke;
-}
-
-/* Project Image */
-.project_image {
-    height: 200px;
-    max-width: 90%;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    border: 2px solid whitesmoke;
-    /* border: 2px solid black; */
-}
-
-/* Project Card */
-.project_card {
-    margin-bottom: 25px;
-}
-
-
-/* Card Height */
-.card.card_height {
-    height: 420px;
-    /* border: 2px solid whitesmoke; */
-    border: 2px solid black;
-}
-
-/* Project Name */
-.project_name {
-    font-size: 60px;
-    font-family: 'Roboto', sans-serif;
-    color: whitesmoke;
-}
-
-/* Onmouseover transition time */
-div,
-img {
-    transition: 600ms;
-}
-
-/* Code link */
-.code_link {
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: orange;
-}
-
-/* Video Link */
-#link {
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    color: orange;
-}
-
-.project_pictures {
-    height: 400px;
-    width: 100%;
-    margin: 20px 0px 20px 0px;
-    border: 4px solid black;
-}
