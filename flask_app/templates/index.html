@@ -21,15 +21,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Gochi+Hand&family=Pixelify+Sans&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;1,400&family=Tektur&display=swap" rel="stylesheet">
+    <!-- Bebas Neue Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Dancing+Script&family=Gochi+Hand&family=Pixelify+Sans&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,100;1,400&family=Tektur&display=swap" rel="stylesheet">
     <title>Brandon Colangelo's Portfolio</title>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top nav2 border-bottom-b">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top card-bg border-bottom-b">
         <div class="container-fluid">
             <div class="d-flex align-items-center">
                 <img class="home-icon" src="/static/img/home.png" alt="Home icon">
-                <h3 class="pixel text-black">Brandon Colangelo</h3>
+                <h3 style="margin-top: 10px;" class="pixel text-black">Brandon Colangelo</h3>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -248,12 +252,12 @@
                 </section>
             </div>
             <div class="col-md-5 text-center text-white my-auto pixel">
-                <h2 class="pixel about2-sub-header">My career as a Software Engineer</h2>
+                <h2 class="pixel text-black">My career as a Software Engineer</h2>
                 <h4>
                     As far as I can remember, I have always admired the potential for technology and have been interested in learning more about it.
-                    In <span class="teal-highlight">December of 2021</span> I decided to read a book teaching the basics of Python. I was fascinated
+                    In <span class="black-highlight">December of 2021</span> I decided to read a book teaching the basics of Python. I was fascinated
                     at what could be done with just a few lines of code. I wanted to understand more, so I decided to take a
-                    <span class="teal-highlight">private 12 week course</span> from a Software Engineer.
+                    <span class="black-highlight">private 12 week course</span> from a Software Engineer.
                 </h4>
             </div>
         </div>
@@ -271,7 +275,7 @@
                 </h4>
             </div>
             <!-- My first project picture/link -->
-            <div class="my-auto col-md-3 about3-bg rounded timeline-border p-3">
+            <div class="my-auto col-md-3 card-bg rounded timeline-border p-3">
                 <a target="_blank" href="#" class="text-decoration-none text-black">
                     <h3 class="pixel text-center">NBA Prediction</h3>
                     <div class="text-center">
@@ -293,13 +297,13 @@
             <div class="my-auto col-md-3 fade-in animate">
                 <!-- <ul class="border border-black no-dots bootcamp-timeline-spine rounded mt-3 timeline-border" onmouseover="scale(this, 1.1)" onmouseleave="scale(this, 1)"> -->
                 <ul class="border border-black no-dots bootcamp-timeline-spine rounded mt-3 timeline-border">
-                    <li class="timeline-bg p-2 border border-black">
+                    <li class="card-bg p-2 border border-black">
                         <h5>Months 1-3</h5>
                         <div class="wrapper">
                             <img class="time-line-imgs" src="/static/img/html-css-js.png" alt="HTML | CSS | Javascript">
                         </div>
                     </li>
-                    <li class="timeline-bg p-2 border border-black">
+                    <li class="card-bg p-2 border border-black">
                         <h5>Months 4-6</h5>
                         <div class="wrapper">
                             <img style="margin-right: 5px;" class="time-line-imgs" src="/static/img/python-logo.png" alt="Python">
@@ -309,28 +313,31 @@
                             <img style="margin-top: 5px;" class="time-line-imgs" src="/static/img/aws.png" alt="AWS">
                         </div>
                     </li>
-                    <li class="timeline-bg p-2 border border-black">
+                    <li class="card-bg p-2 border border-black">
                         <h5>Month 7</h5>
                         <div class="wrapper">
                             <div class="d-flex">
                                 <img class="time-line-imgs" src="/static/img/trophy.png" alt="Trophy">
-                                <h6>Projects and Algorithms</h6>
+                                <h6 style="margin-top: 10px;">Projects and Algorithms</h6>
                             </div>
                         </div>
                     </li>
-                    <li class="timeline-bg p-2 border border-black">
+                    <li class="card-bg p-2 border border-black">
                         <h5>Month 8</h5>
                         <div class="wrapper">
-                            <img class="time-line-imgs" src="/static/img/grad-cap.png" alt="Graduation cap">
+                            <div class="d-flex">
+                                <img class="time-line-imgs" src="/static/img/grad-cap.png" alt="Graduation cap">
+                                <h6 style="margin-top: 10px; margin-left: 5px;">Graduated!</h6>
+                            </div>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="col-md-5 text-center text-white my-auto pixel">
-                <h2 class="pixel about2-sub-header">My coding bootcamp training</h2>
+                <h2 class="pixel text-black">My coding bootcamp training</h2>
                 <h4>
                     After thorough reflections, I made a decision to join an immersive coding bootcamp at <span class="teal-highlight">Coding Dojo</span>.
-                    During my <span class="teal-highlight">28 week program</span>, I intensively coded, searched, read, and coded more. It was such an
+                    During my <span class="black-highlight">28 week program</span>, I intensively coded, searched, read, and coded more. It was such an
                     incredible learning experience and opened my mind to even more possibilities. This is what my bootcamp experience looks like:
                 </h4>
             </div>
@@ -362,50 +369,256 @@
     <div id="projects" class="fixed-projects-bg border-top-b border-bottom-b">
         <div class="row">
             <div style="margin-top: 70px;">
-                <h1 class="skills-header text-black text-center">Projects</h1>
-                <h1 class="skills-txt text-black text-center">Here are some of the projects that I've built.</h1>
+                <h1 class="skills-header text-black text-center">Web Projects</h1>
+                <h1 class="skills-txt text-black text-center">Here are some of the web projects that I've built.</h1>
             </div>
         </div>
     </div>
     <!-- End of projects banner -->
+    <!-- Portfolio -->
+    <div class="text-center rounded-3 h-100">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100 p-5 nav frame">
+                <div class="text-light ">
+                    <div class="row">
+                        <!-- Game Vault -->
+                        <div class="col-md-6 col-lg-4" onmouseover="scale(this, 1.1)" onmouseleave="scale(this, 1)">
+                            <div class="card card_height project_card" style="background-color: rgba(102, 96, 96, 0.7);">
+                                <div class="card-body text-center text-light">
+                                    <img class="project_image" src="/static/img/standby.gif" alt="Game Vault">
+                                    <!-- <a href="/game_vault" target="_blank"><img class="project_image" src="/static/img/standby.gif" alt="Game Vault"></a> -->
+                                    <p class="career_text my-2">Game Vault</p>
+                                    <p>
+                                        Technologies Used:
+                                        <br>
+                                        HTML | CSS | Bootstrap | Javascript | Python | Flask | Jinja2 | MySQL | API
+                                        <br>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <a class="code_link text-decoration-none mx-2" href="https://github.com/Brando129/game_vault.git" target="_blank">Code</a> |
+                                            <form action="/click/view_pictures" method="POST" target="_blank">
+                                                <input id="link" class="btn btn-link text-decoration-none" type="submit" value="Pictures">
+                                                <input type="hidden" name="pic_one" value="/static/img/game_one.jpeg">
+                                                <input type="hidden" name="pic_two" value="/static/img/game_two.jpeg">
+                                                <input type="hidden" name="pic_three" value="/static/img/game_three.jpeg">
+                                                <input type="hidden" name="pic_four" value="/static/img/game_four.jpeg">
+                                                <input type="hidden" name="pic_five" value="/static/img/game_five.jpeg">
+                                                <input type="hidden" name="pic_six" value="/static/img/game_six.jpeg">
+                                                <input type="hidden" name="pic_seven" value="/static/img/game_seven.jpeg">
+                                                <input type="hidden" name="pic_eight" value="/static/img/game_eight.jpeg">
+                                                <input type="hidden" name="pic_nine" value="/static/img/game_nine.jpeg">
+                                                <input type="hidden" name="project_name" value="Game Vault">
+                                            </form> |
+                                            <a class="code_link text-decoration-none mx-2" href="https://www.linkedin.com/posts/brandoncancode_project-game-vault-this-application-allows-activity-7104492529756094464-estl?utm_source=share&utm_medium=member_desktop" target="_blank">Video</a>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Game Vault -->
+                        <!-- Recipes -->
+                        <div class="col-md-6 col-lg-4" onmouseover="scale(this, 1.1)" onmouseleave="scale(this, 1)">
+                            <div class="card card_height project_card" style="background-color: rgba(102, 96, 96, 0.7);">
+                                <div class="card-body text-center text-light">
+                                    <img class="project_image" src="/static/img/recipes.png" alt="Recipes">
+                                    <!-- <a href="#" target="_blank"><img class="project_image" src="/static/img/recipes.png" alt="Recipes"></a> -->
+                                    <p class="career_text my-2">Recipe Share</p>
+                                    <p>
+                                        Technologies Used:
+                                        <br>
+                                        HTML | CSS | Bootstrap | Python | Flask | Jinja2 | MySQL
+                                        <br>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <a class="code_link text-decoration-none mx-2" href="https://github.com/Brando129/recipes.git" target="_blank">Code</a> |
+                                            <!-- <a class="code_link text-decoration-none mx-2" href="http://18.219.235.38" target="_blank">Try me</a> | -->
+                                            <form action="/click/view_pictures" method="POST" target="_blank">
+                                                <input id="link" class="btn btn-link text-decoration-none" type="submit" value="Pictures">
+                                                <input type="hidden" name="pic_one" value="/static/img/recipes_one.jpeg">
+                                                <input type="hidden" name="pic_two" value="/static/img/recipes_two.jpeg">
+                                                <input type="hidden" name="pic_three" value="/static/img/recipes_three.jpeg">
+                                                <input type="hidden" name="pic_four" value="/static/img/recipes_four.jpeg">
+                                                <input type="hidden" name="pic_five" value="/static/img/recipes_five.jpeg">
+                                                <input type="hidden" name="pic_six" value="/static/img/recipes_six.jpeg">
+                                                <input type="hidden" name="pic_seven" value="/static/img/recipes_seven.jpeg">
+                                                <input type="hidden" name="pic_eight" value="/static/img/recipes_eight.jpeg">
+                                                <input type="hidden" name="pic_nine" value="/static/img/recipes_nine.jpeg">
+                                                <input type="hidden" name="project_name" value="Recipe Share">
+                                            </form> |
+                                            <a class="code_link text-decoration-none mx-2" href="https://www.linkedin.com/posts/brandoncancode_softwareengineer-pythondeveloper-webdeveloper-activity-7103720655228960768-t085?utm_source=share&utm_medium=member_desktop" target="_blank">Video</a>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Recipes -->
+                        <!-- Ohana Rideshares -->
+                        <div class="col-md-6 col-lg-4" onmouseover="scale(this, 1.1)" onmouseleave="scale(this, 1)">
+                            <div class="card card_height project_card" style="background-color: rgba(102, 96, 96, 0.7);">
+                                <div class="card-body text-center text-light">
+                                    <img class="project_image" src="/static/img/ohana.png" alt="Ohana Rideshares">
+                                    <!-- <a href="#" target="_blank"><img class="project_image" src="/static/img/ohana.png" alt="Ohana Rideshares"></a> -->
+                                    <p class="career_text my-2">Ohana Rideshares</p>
+                                    <p>
+                                        Technologies Used:
+                                        <br>
+                                        HTML | CSS | Bootstrap | Python | Flask | Jinja2 | MySQL
+                                        <br>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <a class="code_link text-decoration-none mx-2" href="https://github.com/Brando129/ohana_rideshares.git" target="_blank">Code</a> |
+                                            <!-- <a class="code_link text-decoration-none mx-2" href="http://3.145.117.166" target="_blank">Try me</a> | -->
+                                            <!-- <a class="code_link text-decoration-none" href="/ohana" target="_blank">Video</a> -->
+                                            <form action="/click/view_pictures" method="POST" target="_blank">
+                                                <input id="link" class="btn btn-link text-decoration-none" type="submit" value="Pictures">
+                                                <input type="hidden" name="pic_one" value="/static/img/ohana_one.jpeg">
+                                                <input type="hidden" name="pic_two" value="/static/img/ohana_two.jpeg">
+                                                <input type="hidden" name="pic_three" value="/static/img/ohana_three.jpeg">
+                                                <input type="hidden" name="pic_four" value="/static/img/ohana_four.jpeg">
+                                                <input type="hidden" name="pic_five" value="/static/img/ohana_five.jpeg">
+                                                <input type="hidden" name="pic_six" value="/static/img/ohana_six.jpeg">
+                                                <input type="hidden" name="pic_seven" value="/static/img/ohana_seven.jpeg">
+                                                <input type="hidden" name="pic_eight" value="/static/img/ohana_eight.jpeg">
+                                                <input type="hidden" name="pic_nine" value="/static/img/ohana_nine.jpeg">
+                                                <input type="hidden" name="project_name" value="Ohana Rideshares">
+                                            </form> |
+                                            <a class="code_link text-decoration-none mx-2" href="https://www.linkedin.com/posts/brandoncancode_softwareengineer-softwaredeveloper-pythondeveloper-activity-7104142917631442944-ldYF?utm_source=share&utm_medium=member_desktop" target="_blank">Video</a>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Ohana Rideshares -->
+                        <!-- Heroes and Villains -->
+                        <div class="col-md-6 col-lg-4" onmouseover="scale(this, 1.1)" onmouseleave="scale(this, 1)">
+                            <div class="card card_height project_card" style="background-color: rgba(102, 96, 96, 0.7);">
+                                <div class="card-body text-center text-light">
+                                    <img class="project_image" src="/static/img/superhero.png" alt="Heroes and Villains">
+                                    <!-- <a href="/heroes_and_villains" target="_blank"><img class="project_image" src="/static/img/superhero.png" alt="Heroes and Villains"></a> -->
+                                    <p class="career_text my-2">Heroes and Villains</p>
+                                    <p>
+                                        Technologies Used:
+                                        <br>
+                                        HTML | CSS | Bootstrap | Python | Flask | Jinja2 | API
+                                        <br>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <a class="code_link text-decoration-none mx-2" href="https://github.com/Brando129/Superheroes_and_Villains.git" target="_blank">Code</a> |
+                                            <form action="/click/view_pictures" method="POST" target="_blank">
+                                                <input id="link" class="btn btn-link text-decoration-none" type="submit" value="Pictures">
+                                                <input type="hidden" name="pic_one" value="/static/img/heroes_one.jpeg">
+                                                <input type="hidden" name="pic_two" value="/static/img/heroes_two.jpeg">
+                                                <input type="hidden" name="pic_three" value="/static/img/heroes_three.jpeg">
+                                                <input type="hidden" name="pic_four" value="/static/img/heroes_four.jpeg">
+                                                <input type="hidden" name="pic_five" value="/static/img/heroes_five.jpeg">
+                                                <input type="hidden" name="pic_six" value="/static/img/heroes_six.jpeg">
+                                                <input type="hidden" name="pic_seven" value="/static/img/heroes_seven.jpeg">
+                                                <input type="hidden" name="pic_eight" value="/static/img/heroes_eight.jpeg">
+                                                <input type="hidden" name="pic_nine" value="/static/img/heroes_nine.jpeg">
+                                                <input type="hidden" name="project_name" value="Heroes and Villains">
+                                            </form> |
+                                            <a class="code_link text-decoration-none mx-2" href="https://www.linkedin.com/posts/brandoncancode_html-css3-bootstrap5-activity-7097220435473272832-N0dc?utm_source=share&utm_medium=member_desktop" target="_blank">Video</a>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Heroes and Villains -->
+                        <!-- Personal Website -->
+                        <div class="col-md-6 col-lg-4" onmouseover="scale(this, 1.1)" onmouseleave="scale(this, 1)">
+                            <div class="card card_height project_card" style="background-color: rgba(102, 96, 96, 0.7);">
+                                <div class="card-body text-center text-light">
+                                    <img class="project_image" src="/static/img/banner.png" alt="Personal Website">
+                                    <p class="career_text my-2">Personal Website</p>
+                                    <p>
+                                        Technologies Used:
+                                        <br>
+                                        HTML | CSS | Bootstrap | Python | Flask | Javascript
+                                        <br>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <a class="code_link text-decoration-none" href="https://github.com/Brando129/Personal_Website.git" target="_blank">Code</a>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Personal Website -->
+                        <!-- The Wall -->
+                        <div class="col-md-6 col-lg-4" onmouseover="scale(this, 1.1)" onmouseleave="scale(this, 1)">
+                            <div class="card card_height project_card" style="background-color: rgba(102, 96, 96, 0.7);">
+                                <div class="card-body text-center text-light">
+                                    <img class="project_image" src="/static/img/wall.png" alt="The Wall">
+                                    <!-- <a href="/wall" target="_blank"><img class="project_image" src="/static/img/wall.png" alt="The Wall"></a> -->
+                                    <p class="career_text my-2">The Wall</p>
+                                    <p>
+                                        Technologies Used:
+                                        <br>
+                                        HTML | CSS | Bootstrap | Python | Flask | Jinja2 | MySQL
+                                        <br>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <a class="code_link text-decoration-none mx-2" href="https://github.com/Brando129/coding_dojo_wall.git" target="_blank">Code</a> |
+                                            <form action="/click/view_pictures" method="POST" target="_blank">
+                                                <input id="link" class="btn btn-link text-decoration-none" type="submit" value="Pictures">
+                                                <input type="hidden" name="pic_one" value="/static/img/wall_one.png">
+                                                <input type="hidden" name="pic_two" value="/static/img/wall_two.png">
+                                                <input type="hidden" name="pic_three" value="/static/img/wall_three.png">
+                                                <input type="hidden" name="pic_four" value="/static/img/wall_four.png">
+                                                <input type="hidden" name="pic_five" value="/static/img/wall_five.png">
+                                                <input type="hidden" name="pic_six" value="/static/img/wall_six.png">
+                                                <input type="hidden" name="pic_seven" value="/static/img/wall_seven.png">
+                                                <input type="hidden" name="pic_eight" value="/static/img/wall_eight.png">
+                                                <input type="hidden" name="pic_nine" value="/static/img/wall_nine.png">
+                                                <input type="hidden" name="project_name" value="The Wall">
+                                            </form> |
+                                            <a class="code_link text-decoration-none mx-2" href="https://www.linkedin.com/posts/brandoncancode_softwareengineer-softwaredevelopment-pythonengineer-activity-7104145536412225537-E9G0?utm_source=share&utm_medium=member_desktop" target="_blank">Video</a>
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of The Wall -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Portfolio -->
     <!-- End of projects -->
     <!-- Skills banner -->
     <div id="skills" class="fixed-skills-bg border-bottom-b border-top-b">
         <div class="row">
             <div style="margin-top: 70px;">
                 <h1 class="skills-header text-center">Skills</h1>
-                <h1 class="skills-txt text-center">Major skills that I have aquired so far.</h1>
+                <h1 class="skills-txt text-center">Major skills that I've aquired so far.</h1>
             </div>
         </div>
     </div>
     <div class="frame about2-bg p-3">
-        <div class="d-flex align-items-center justify-content-between">
-            <h2>Languages</h2>
-            <h5>Python | Javascript | HTML | CSS</h5>
-        </div>
-        <div class="d-flex align-items-center justify-content-between">
-            <h2>Front End</h2>
-            <h5>Bootstrap</h5>
-        </div>
-        <div class="d-flex align-items-center justify-content-between">
-            <h2>Web Servers and Frameworks</h2>
-            <h5>Flask | Gunicorn | Nginx |</h5>
-        </div>
-        <div class="d-flex align-items-center justify-content-between">
-            <h2>Cloud Services</h2>
-            <h5>AWS EC2</h5>
-        </div>
-        <div class="d-flex align-items-center justify-content-between">
-            <h2>Databases</h2>
-            <h5>MySQL</h5>
-        </div>
-        <div class="d-flex align-items-center justify-content-between">
-            <h2>Concepts and Patterns</h2>
-            <h5>Restful / CRUD</h5>
-        </div>
-        <div class="d-flex align-items-center justify-content-between">
-            <h2>Software</h2>
-            <h5>Git | MacOS | VS Code</h5>
+        <div class="mx-auto col-md-6 card-bg p-1 skills2-txt">
+            <div class="d-flex align-items-center justify-content-between">
+                <h2>Languages</h2>
+                <h5>Python | Javascript | HTML | CSS</h5>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <h2>Front End</h2>
+                <h5>Bootstrap</h5>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <h2>Web Servers and Frameworks</h2>
+                <h5>Flask | Gunicorn | Nginx </h5>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <h2>Cloud Services</h2>
+                <h5>AWS EC2</h5>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <h2>Databases</h2>
+                <h5>MySQL</h5>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <h2>Concepts and Patterns</h2>
+                <h5>Restful / CRUD</h5>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <h2>Software</h2>
+                <h5>Git | MacOS | VS Code</h5>
+            </div>
         </div>
     </div>
     <!-- End of skills banner -->
@@ -495,30 +708,38 @@
     <div class="about2-bg frame p-3 flex-column">
         <div class="d-flex justify-content-around align-items-center my-5">
             <a href="mailto:brandoncancode@gmail.com">
-                <img class="icon-size" src="/static/img/gmail-icon.png" alt="Email logo">
+                <img class="icon-size" src="/static/img/gmail-icon.png" alt="Email logo"
+                onmouseover="scale(this, 1.3)" onmouseleave="scale(this, 1)">
             </a>
             <a href="https://www.linkedin.com/in/brandoncancode" target="_blank">
-                <img class="icon-size" src="/static/img/linkedin-icon.png" alt="Linkedin logo">
+                <img class="icon-size" src="/static/img/linkedin-icon.png" alt="Linkedin logo"
+                onmouseover="scale(this, 1.3)" onmouseleave="scale(this, 1)">
             </a>
             <a href="https://docs.google.com/document/d/1KNbqboFK-3RsBnOZjVkPvD3vQh1D6_WxYXpN8eZ2R00" target="_blank">
-                <img class="icon-size" src="/static/img/resume-icon.png" alt="Resume logo">
+                <img class="icon-size" src="/static/img/resume-icon.png" alt="Resume logo"
+                onmouseover="scale(this, 1.3)" onmouseleave="scale(this, 1)">
             </a>
             <a href="https://www.github.com/Brando129" target="_blank">
-                <img class="icon-size" src="/static/img/github-icon.png" alt="Github logo">
+                <img class="icon-size" src="/static/img/github-icon.png" alt="Github logo"
+                onmouseover="scale(this, 1.3)" onmouseleave="scale(this, 1)">
             </a>
         </div>
         <div class="d-flex justify-content-around align-items-center mb-5">
-            <a href="#" target="_blank">
-                <img class="icon-size" src="/static/img/youtube-icon.png" alt="Youtube logo">
+            <a href="#contact">
+                <img class="icon-size" src="/static/img/youtube-icon.png" alt="Youtube logo"
+                onmouseover="scale(this, 1.3)" onmouseleave="scale(this, 1)">
             </a>
             <a href="https://www.instagram.com/brandon_can_code" target="_blank">
-                <img class="icon-size" src="/static/img/instagram-icon.png" alt="Instagram logo">
+                <img class="icon-size" src="/static/img/instagram-icon.png" alt="Instagram logo"
+                onmouseover="scale(this, 1.3)" onmouseleave="scale(this, 1)">
             </a>
-            <a href="#" target="_blank">
-                <img class="icon-size" src="/static/img/twitter-icon.png" alt="Twitter">
+            <a href="#contact">
+                <img class="icon-size" src="/static/img/twitter-icon.png" alt="Twitter"
+                onmouseover="scale(this, 1.3)" onmouseleave="scale(this, 1)">
             </a>
-            <a href="#" target="_blank">
-                <img class="icon-size" src="/static/img/snapchat-icon.png" alt="Snapchat">
+            <a href="#contact">
+                <img class="icon-size" src="/static/img/snapchat-icon.png" alt="Snapchat"
+                onmouseover="scale(this, 1.3)" onmouseleave="scale(this, 1)">
             </a>
         </div>
         <div class="d-flex justify-content-center">
