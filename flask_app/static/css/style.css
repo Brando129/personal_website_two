@@ -10,10 +10,6 @@
     background-image: linear-gradient(to bottom right, antiquewhite, silver);
 }
 
-/* .nav2 {
-    background-image: linear-gradient(to bottom right, antiquewhite, #148287);
-} */
-
 /* Home icons */
 .home-icon {
     height: 50px;
@@ -331,6 +327,11 @@ section {
     background-size: cover;
 }
 
+/* Game card background */
+.game-card-bg {
+    background-image: linear-gradient(to bottom right, tan, black);
+}
+
 /* Border top */
 .t-top {
     border-top: 2px solid white;
@@ -343,6 +344,13 @@ section {
     color: whitesmoke;
 }
 
+/* Career Text2 */
+.career_text2 {
+    font-size: 25px;
+    font-family: 'Pixelify Sans';
+    color: whitesmoke;
+}
+
 /* Project Image */
 .project_image {
     height: 200px;
@@ -350,6 +358,16 @@ section {
     margin-bottom: 10px;
     border-radius: 10px;
     border: 2px solid whitesmoke;
+    /* border: 2px solid black; */
+}
+
+/* Project Image 2 */
+.project_image2 {
+    height: 200px;
+    max-width: 90%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 5px solid goldenrod;
     /* border: 2px solid black; */
 }
 
@@ -364,6 +382,13 @@ section {
     height: 420px;
     /* border: 2px solid whitesmoke; */
     border: 2px solid black;
+}
+
+/* Card Height */
+.card.card_height2 {
+    height: 420px;
+    /* border: 2px solid whitesmoke; */
+    border: 10px solid goldenrod;
 }
 
 /* Project Name */
