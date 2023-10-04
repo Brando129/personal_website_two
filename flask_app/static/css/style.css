@@ -10,6 +10,10 @@
     background-image: linear-gradient(to bottom right, antiquewhite, silver);
 }
 
+.nav2 {
+    background-image: linear-gradient(to bottom right, antiquewhite, #148287);
+}
+
 /* Home icons */
 .home-icon {
     height: 50px;
@@ -220,7 +224,7 @@ section {
 /* About3 */
 /* Background color */
 .about3-bg {
-    background-image: linear-gradient(to bottom right, antiquewhite, goldenrod);
+    background-image: linear-gradient(to bottom right, white, antiquewhite);
 }
 
 /* About4 */
@@ -250,6 +254,11 @@ section {
     border-radius: 15px;
     box-shadow: 5px 7px black;
     transition: 700ms;
+}
+
+/* Timeline background */
+.timeline-bg {
+    background-image: linear-gradient(to bottom right, white, antiquewhite);
 }
 
 /* Bootcamp timeline fade in/out */
@@ -468,4 +477,10 @@ section {
     /* Scale the background image to be as large as possible */
     background-size: cover;
 }
+
+/* Icon sizes */
+.icon-size {
+    height: 60px;
+}
+
 /* End of contact */
