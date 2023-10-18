@@ -9,8 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- Favicon link -->
-    <link rel="shortcut icon" type="x-icon" href="/static/img/bobba.png">
-
+    <link rel="icon" type="image/x-icon" href="/static/img/favicon.ico">
     <!-- Font links -->
     <!-- Pixel font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +33,7 @@
                 <img class="home-icon" src="/static/img/home.png" alt="Home icon">
                 <h3 style="margin-top: 10px;" class="pixel text-black">Brandon Colangelo</h3>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="showLinks()">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
@@ -87,7 +86,7 @@
     </nav>
     <!-- End of navbar -->
     <!-- Main banner -->
-    <div style="margin-top: 60px;" class="d-flex aign-items-center justify-content-around fixed-bg b-bottom">
+    <div style="margin-top: 50px;" class="d-flex aign-items-center justify-content-around fixed-bg b-bottom">
         <div class="row p-5">
             <div class="text-center slide col-md-6">
                 <img class="profile_image rounded-circle" src="/static/img/noir_profile_pic.png" alt="Profile picture">
@@ -333,7 +332,7 @@
         <div class="row">
             <div style="margin-top: 70px;">
                 <h1 class="skills-header text-black text-center">Web Projects</h1>
-                <h1 class="skills-txt text-black text-center">Here are some of the web projects that I've built.</h1>
+                <!-- <h1 class="skills-txt text-black text-center">Here are some of the web projects that I've built.</h1> -->
             </div>
         </div>
     </div>
@@ -482,7 +481,7 @@
         <div class="row">
             <div style="margin-top: 70px;">
                 <h1 class="skills-header text-white text-center">Game Projects</h1>
-                <h1 class="skills-txt text-white text-center">Here are some of the game projects that I've built.</h1>
+                <!-- <h1 class="skills-txt text-white text-center">Here are some of the game projects that I've built.</h1> -->
             </div>
         </div>
     </div>
@@ -505,8 +504,8 @@
                                         Python | Pygame
                                         <br>
                                         <div class="d-flex justify-content-center align-items-center">
-                                            <a class="code_link text-decoration-none mx-2" href="https://github.com/Brando129/checkers.git" target="_blank">Code</a> |
-                                            <a class="code_link text-decoration-none mx-2" href="#" target="_blank">Video</a>
+                                            <a class="code_link2 text-decoration-none mx-2" href="https://github.com/Brando129/checkers.git" target="_blank">Code</a> |
+                                            <a class="code_link2 text-decoration-none mx-2" href="#projects" target="_blank">Video</a>
                                         </div>
                                     </p>
                                 </div>
@@ -525,8 +524,8 @@
                                         Python | Pygame
                                         <br>
                                         <div class="d-flex justify-content-center align-items-center">
-                                            <a class="code_link text-decoration-none mx-2" href="https://github.com/Brando129/planet_defense.git" target="_blank">Code</a> |
-                                            <a class="code_link text-decoration-none mx-2" href="#" target="_blank">Video</a>
+                                            <a class="code_link2 text-decoration-none mx-2" href="https://github.com/Brando129/planet_defense.git" target="_blank">Code</a> |
+                                            <a class="code_link2 text-decoration-none mx-2" href="https://www.linkedin.com/feed/update/urn:li:activity:7117549592711229440/" target="_blank">Video</a>
                                         </div>
                                     </p>
                                 </div>
@@ -545,8 +544,8 @@
                                         Python | Pygame
                                         <br>
                                         <div class="d-flex justify-content-center align-items-center">
-                                            <a class="code_link text-decoration-none mx-2" href="https://github.com/Brando129/platformer.git" target="_blank">Code</a> |
-                                            <a class="code_link text-decoration-none mx-2" href="#" target="_blank">Video</a>
+                                            <a class="code_link2 text-decoration-none mx-2" href="https://github.com/Brando129/platformer.git" target="_blank">Code</a> |
+                                            <a class="code_link2 text-decoration-none mx-2" href="#projects" target="_blank">Video</a>
                                         </div>
                                     </p>
                                 </div>
@@ -565,8 +564,8 @@
                                         Python | Pygame
                                         <br>
                                         <div class="d-flex justify-content-center align-items-center">
-                                            <a class="code_link text-decoration-none mx-2" href="https://github.com/Brando129/aim_trainer.git" target="_blank">Code</a> |
-                                            <a class="code_link text-decoration-none mx-2" href="#" target="_blank">Video</a>
+                                            <a class="code_link2 text-decoration-none mx-2" href="https://github.com/Brando129/aim_trainer.git" target="_blank">Code</a> |
+                                            <a class="code_link2 text-decoration-none mx-2" href="https://www.linkedin.com/feed/update/urn:li:activity:7117168703921606656/" target="_blank">Video</a>
                                         </div>
                                     </p>
                                 </div>
@@ -585,8 +584,8 @@
                                         Python | Pygame
                                         <br>
                                         <div class="d-flex justify-content-center align-items-center">
-                                            <a class="code_link text-decoration-none mx-2" href="https://github.com/Brando129/tetris.git" target="_blank">Code</a> |
-                                            <a class="code_link text-decoration-none mx-2" href="#" target="_blank">Video</a>
+                                            <a class="code_link2 text-decoration-none mx-2" href="https://github.com/Brando129/tetris.git" target="_blank">Code</a> |
+                                            <a class="code_link2 text-decoration-none mx-2" href="https://www.linkedin.com/feed/update/urn:li:activity:7116107706897203200/" target="_blank">Video</a>
                                         </div>
                                     </p>
                                 </div>
@@ -605,8 +604,8 @@
                                         Python | Pygame
                                         <br>
                                         <div class="d-flex justify-content-center align-items-center">
-                                            <a class="code_link text-decoration-none mx-2" href="https://github.com/Brando129/pong.git" target="_blank">Code</a> |
-                                            <a class="code_link text-decoration-none mx-2" href="https://www.linkedin.com/feed/update/urn:li:activity:7115703523501121536/" target="_blank">Video</a>
+                                            <a class="code_link2 text-decoration-none mx-2" href="https://github.com/Brando129/pong.git" target="_blank">Code</a> |
+                                            <a class="code_link2 text-decoration-none mx-2" href="https://www.linkedin.com/feed/update/urn:li:activity:7115703523501121536/" target="_blank">Video</a>
                                         </div>
                                     </p>
                                 </div>
@@ -625,7 +624,7 @@
         <div class="row">
             <div style="margin-top: 70px;">
                 <h1 class="skills-header text-center">Skills</h1>
-                <h1 class="skills-txt text-center">Major skills that I've aquired so far.</h1>
+                <!-- <h1 class="skills-txt text-center">Major skills that I've aquired so far.</h1> -->
             </div>
         </div>
     </div>
@@ -692,20 +691,41 @@
     <div id="courses" class="fixed-courses-bg border-top-b border-bottom-b">
         <div class="row">
             <div style="margin-top: 70px;">
-                <h1 class="skills-header text-center">Courses</h1>
-                <h1 class="skills-txt text-center">Some of the courses I've completed.</h1>
+                <h1 class="skills-header text-center">Courses and Certifications</h1>
+                <!-- <h1 class="skills-txt text-center">Some of the courses I've completed.</h1> -->
             </div>
         </div>
     </div>
-    <div class="frame nav p-3">
-        <div class="mx-auto d-flex col-md-6 card-bg p-3">
+    <div class="frame nav p-3 flex-column align-items-center">
+        <div class="mx-auto d-flex col-md-6 card-bg p-3 my-4">
             <div style="margin-right: 20px;">
-                <img class="education-icon" src="/static/img/codingdojo-icon.png" alt="">
+                <img class="education-icon" src="/static/img/codingdojo-icon.png" alt="Coding Dojo">
             </div>
             <div>
                 <h3>Coding Dojo</h3>
                 <h5>Python Stack</h5>
+                <p>Python | MySQL | FLask | Jinja2 | Bootstrap | AWS</p>
                 <h5>Web Fundamentals</h5>
+                <p>HTML5 | CSS3 | Javascript</p>
+            </div>
+        </div>
+        <div class="mx-auto d-flex col-md-6 card-bg p-3 my-4">
+            <div style="margin-right: 20px;">
+                <img class="education-icon" src="/static/img/coursera-logo.png" alt="Coursera">
+            </div>
+            <div>
+                <h3>Coursera</h3>
+                <h5>Meta Front-End Developer</h5>
+                <!-- <div class="d-flex">
+                    <img class="course-icon" src="/static/img/meta-logo.png" alt="Meta Logo">
+                    <h5>Meta Font-End Developer</h5>
+                </div> -->
+                <!-- <ul>
+                    <li>Introduction to Front-End Development</li>
+                    <li>Programming with Javascript</li>
+                </ul> -->
+                <p class="mb-1">- Introduction to Front-End Development</p>
+                <p class="mb-1">- Programming with Javascript</p>
             </div>
         </div>
     </div>
@@ -755,7 +775,9 @@
                 <img class="icon-size" src="/static/img/linkedin-icon.png" alt="Linkedin logo"
                 onmouseover="scale(this, 1.3)" onmouseleave="scale(this, 1)">
             </a>
-            <a href="https://drive.google.com/file/d/1KNbqboFK-3RsBnOZjVkPvD3vQh1D6_WxYXpN8eZ2R00/view" target="_blank">
+            <!-- <a href="https://drive.google.com/file/d/1KNbqboFK-3RsBnOZjVkPvD3vQh1D6_WxYXpN8eZ2R00/view" target="_blank"> -->
+            <!-- <a href="https://drive.google.com/file/d/1KNbqboFK-3RsBnOZjVkPvD3vQh1D6_WxYXpN8eZ2R00/view" target="_blank"> -->
+            <a href="/static/img/technical_resume_oct_23.pdf" target="_blank">
                 <img class="icon-size" src="/static/img/resume-icon.png" alt="Resume logo"
                 onmouseover="scale(this, 1.3)" onmouseleave="scale(this, 1)">
             </a>

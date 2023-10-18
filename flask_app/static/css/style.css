@@ -10,6 +10,35 @@
     background-image: linear-gradient(to bottom right, antiquewhite, silver);
 }
 
+/* Toggler */
+.navbar-toggler {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Navbar toggler icon */
+.navbar-toggler-icon {
+    color: #000;
+}
+
+/* Hamburger bars */
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* .navbar-nav .nav-item {
+    padding: 10px 0;
+} */
+
+/* .navbar-nav .nav-link {
+    color: #000;
+    font-size: 16px;
+} */
+
 /* Home icons */
 .home-icon {
     height: 50px;
@@ -82,7 +111,7 @@ a.nav-link:active {
 
 /* Career text */
 .career-text {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Pixelify Sans';
     /* font-family: 'Roboto'; */
     color: gainsboro;
@@ -268,7 +297,7 @@ section {
 }
 
 /* Bootcamp timeline fade in/out */
-.animate {
+/* .animate {
     animation: anim 7s infinite alternate;
     }
 
@@ -285,7 +314,7 @@ section {
         opacity: 1;
         z-index: 1
     }
-}
+} */
 
 /* About5 */
 .github-logo {
@@ -302,7 +331,7 @@ section {
     background-image: url("/static/img/blueprints.png");
 
     /* Set a specified height, or the minimum height for the background image */
-    min-height: 300px;
+    min-height: 400px;
 
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
@@ -317,13 +346,19 @@ section {
     background-size: cover;
 }
 
+@media (max-width: 767px) {
+    .fixed-projects-bg {
+        background-attachment: initial;
+    }
+}
+
 /* Game projects background */
 .fixed-game-bg {
     /* The background image */
-    background-image: url("/static/img/platformer.gif");
+    background-image: url("/static/img/gaming.png");
 
     /* Set a specified height, or the minimum height for the background image */
-    min-height: 300px;
+    min-height: 400px;
 
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
@@ -336,6 +371,12 @@ section {
 
     /* Scale the background image to be as large as possible */
     background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .fixed-game-bg {
+        background-attachment: initial;
+    }
 }
 
 /* Game card background */
@@ -419,7 +460,14 @@ img {
 .code_link {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    color: orange;
+    color: blue;
+}
+
+/* Code link2 */
+.code_link2 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: goldenrod;
 }
 
 /* Video Link */
@@ -458,6 +506,12 @@ img {
 
     /* Scale the background image to be as large as possible */
     background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .fixed-skills-bg {
+        background-attachment: initial;
+    }
 }
 
 /* Skills header */
@@ -522,6 +576,12 @@ img {
     background-size: cover;
 }
 
+@media (max-width: 767px) {
+    .fixed-education-bg {
+        background-attachment: initial;
+    }
+}
+
 .education-icon {
     height: 70px;
 }
@@ -555,6 +615,17 @@ img {
     /* Scale the background image to be as large as possible */
     background-size: cover;
 }
+
+@media (max-width: 767px) {
+    .fixed-courses-bg {
+        background-attachment: initial;
+    }
+}
+
+.course-icon{
+    height: 30px;
+    width: 40px;
+}
 /* End of courses */
 
 
@@ -579,6 +650,12 @@ img {
     /* Scale the background image to be as large as possible */
     background-size: cover;
 }
+
+@media (max-width: 767px) {
+    .fixed-experience-bg {
+        background-attachment: initial;
+    }
+}
 /* End of experience */
 
 
@@ -602,6 +679,12 @@ img {
 
     /* Scale the background image to be as large as possible */
     background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .fixed-contact-bg {
+        background-attachment: initial;
+    }
 }
 
 /* Icon sizes */
